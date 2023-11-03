@@ -1,1 +1,1 @@
-# Pygame-Template CC BY
+# Pygame Template CC BY
