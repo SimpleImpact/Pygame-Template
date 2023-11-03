@@ -11,6 +11,9 @@ running = True
 dt = 0
 
 while running:
+    screen.fill("black")
+    keys = pygame.key.get_pressed()
+    
     for event in pygame.event.get():
         if event.type == pygame.QUIT or keys[pygame.K_e]:
             running = False
