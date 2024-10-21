@@ -11,7 +11,7 @@ running = True
 dt = 0
 
 while running:
-    screen.fill("black")
+    screen.fill("White")
     keys = pygame.key.get_pressed()
     
     for event in pygame.event.get():
@@ -19,7 +19,7 @@ while running:
             running = False
           
     # Put all code here
-  
+    pygame.display.update()
     dt = clock.tick(240) / 1000
 
 pygame.quit()
